@@ -1,0 +1,78 @@
+"In Object-Oriented Programming, what is a 'Class'?","A template or blueprint used to create objects, defining their attributes and behaviors."
+What is an 'Object' in the context of OOP?,An instance of a class that represents a specific real-world entity with a defined state and behavior.
+Which OOP concept involves bundling data and the methods that operate on that data into a single unit?,Encapsulation
+Explain the principle of 'Information Hiding'.,The practice of restricting direct access to an object's internal state to protect its integrity and security.
+What is 'Inheritance'?,A mechanism where a child class acquires the attributes and methods of a parent class to promote code reusability.
+Define 'Polymorphism' in programming.,The ability of different classes to be treated as instances of the same parent class through a uniform interface.
+"In a UML class diagram, what does the symbol '-' denote before an attribute name?",Private visibility
+"In a UML class diagram, what does the symbol '+' denote before a method name?",Public visibility
+What are the three compartments typically found in a UML class box?,"Class Name, Attributes, and Methods."
+State the primary difference between a static variable and an instance variable.,"A static variable is shared by all instances of a class, whereas an instance variable is unique to each object."
+Why are static methods considered memory efficient?,They are attached to the class itself and do not require separate memory allocation for every object created.
+What is the primary role of a 'Constructor'?,To initialize an object's state and set initial values for its attributes at the time of creation.
+"In Python, which specific method is used as the class constructor?","The `def __init__(self, ...):` method."
+How does encapsulation contribute to software security?,By preventing external code from making unauthorized or invalid changes to an object's private data.
+What is the purpose of 'Accessor' (Getter) methods?,To return the value of a private attribute without allowing direct modification.
+What is the purpose of 'Mutator' (Setter) methods?,"To update the value of a private attribute, often including validation logic to ensure data integrity."
+Term: Superclass,The parent class in an inheritance relationship from which other classes derive functionality.
+Term: Subclass,"A child class that extends a superclass, inheriting its members and potentially adding new ones."
+How does inheritance affect access to 'private' members of a parent class?,Private members are inherited but cannot be accessed directly by the child class.
+Define 'Method Overriding'.,A feature where a subclass provides a specific implementation for a method that is already defined in its superclass.
+What is 'Static Polymorphism' (Method Overloading)?,Defining multiple methods with the same name but different parameters within the same class.
+Explain the concept of 'Abstraction' in OOP.,The process of reducing complexity by hiding irrelevant details and focusing on essential characteristics.
+What is an 'Abstract Class'?,A class that cannot be instantiated and is used to define a common interface for its subclasses.
+Distinguish between 'Composition' and 'Aggregation' regarding object lifecycles.,"In composition, subcomponents cannot exist outside the parent; in aggregation, they can function independently."
+"In UML, how is 'Composition' represented?",By a solid (filled) diamond at the end of a relationship line.
+"In UML, how is 'Aggregation' represented?",By a hollow (clear) diamond at the end of a relationship line.
+What is a 'Design Pattern'?,"A general, reusable solution to a commonly occurring problem in software design."
+Describe the 'Singleton' design pattern.,A pattern that ensures a class has only one instance and provides a global point of access to it.
+Describe the 'Factory' design pattern.,A pattern used to create objects without specifying the exact class of object that will be created.
+Describe the 'Observer' design pattern.,A pattern where an object (subject) maintains a list of dependents (observers) and notifies them of state changes.
+What is 'Modularity' in the context of OOP?,"Breaking a program into smaller, self-contained parts (modules) that can be developed and tested independently."
+How does OOP facilitate 'Code Reusability'?,By allowing developers to use existing classes as templates for new ones through inheritance and composition.
+What is a 'Method Signature'?,"The combination of a method's name and its parameter list (number, type, and order of parameters)."
+State one advantage of using OOP for complex problem solving.,It allows for a more intuitive modeling of real-world systems through hierarchical relationships and objects.
+State one disadvantage of using OOP.,It can lead to increased memory usage and overhead compared to procedural programming.
+"In Python, what is the role of the `self` keyword?",It represents the instance of the class and allows access to the object's attributes and methods.
+"In Java, what is the role of the `this` keyword?",It is a reference to the current object whose method or constructor is being called.
+What type of relationship is described by 'Inheritance'?,"An 'is-a' relationship (e.g., a Salesman is an Employee)."
+What type of relationship is described by 'Composition' or 'Aggregation'?,"A 'has-a' relationship (e.g., a Car has an Engine)."
+Why is 'Encapsulation' important for maintaining the 'Integrity' of an object?,It prevents external interference that could lead to an inconsistent or invalid internal state.
+How can OOP be applied to database development?,By mapping classes to database tables and objects to individual table records.
+When should instance variables be used instead of class variables?,When each object needs to store its own unique data that should not be shared with other instances.
+Explain the significance of the `protected` access modifier.,It allows members to be accessed within the same package and by subclasses in other packages.
+Which OOP mechanism implements 'Dynamic Polymorphism'?,Method overriding.
+What happens to subcomponents in 'Composition' when the parent object is destroyed?,They are destroyed along with the parent object.
+Why are 'Design Patterns' useful for recurring programming challenges?,They provide proven architectures that increase code maintainability and scalability.
+How can 'Abstraction' help in developing modular code fragments?,By defining clear interfaces that allow different modules to interact without knowing each other's internal logic.
+"In the 'Los Pollos Hermanos' scenario, why is 'Employee' defined as a class?",To serve as a general template that defines common traits like ID and name for all types of staff.
+"In the 'Los Pollos Hermanos' scenario, if Walter White is an instance of Employee, what is he technically called?",An Object.
+The ability to use a child object wherever a parent object is expected is a core part of _____.,Polymorphism
+Which design pattern is most suitable for a 'Logging' service that should only exist once in memory?,Singleton
+What is the purpose of the `super()` function in a subclass constructor?,To call the constructor of the parent class and initialize inherited attributes.
+Which UML relationship implies that a 'Department' can exist even if the 'University' it belongs to is closed?,Aggregation
+Why is it important to use 'Type Hinting' in Python OOP for IB students?,It helps students connect Python code to IB Pseudocódigo by explicitly stating expected data types.
+What is the result of using a private attribute without a getter method?,The attribute becomes inaccessible to any code outside of the class it is defined in.
+How does polymorphism contribute to 'Code Flexibility'?,It allows a single method call to behave differently depending on the object type it is invoked on.
+State one reason why 'Decomposition' is used during OOP design.,To break a complex system into manageable classes and objects that are easier to implement.
+"In the context of OOP, define 'State'.",The current values of an object's attributes at a specific point in time.
+"In the context of OOP, define 'Behavior'.","The actions that an object can perform, represented by its methods."
+Which OOP principle is best applied to secure network communications by hiding protocol details?,Encapsulation (or Abstraction).
+Explain the difference between 'static' and 'dynamic' binding.,"Static binding occurs at compile time (overloading), while dynamic binding occurs at runtime (overriding)."
+How does the 'Observer' pattern facilitate scalability in machine learning models?,By allowing multiple visualization or logging tools to react to model updates without modifying the model itself.
+What is the primary risk of not using encapsulation in a large-scale project?,"Increased coupling, where changes in one part of the code cause unexpected errors in unrelated parts."
+"If a method is marked as 'abstract', what must a concrete subclass do?",It must provide an implementation (override) for that abstract method.
+Why is 'Aggregation' considered a 'weak' association?,Because the objects have independent lifecycles and the part can exist without the whole.
+"In UML, where is the return type of a method written?","After the method name and parameters, separated by a colon (e.g., `getName(): String`)."
+What is 'Code Management' in the context of OOP modularity?,The ability to update or debug a specific class without affecting the rest of the system.
+Why are constructors not typically used to implement business logic?,Their primary responsibility is solely the initialization of the object's initial state.
+How does inheritance simplify the creation of 'specialized' classes?,By allowing the specialized class to focus only on its unique features while inheriting general features from a parent.
+"In Python OOP, what does a single leading underscore (e.g., `_salary`) suggest to other programmers?","That the attribute is intended for internal (protected) use, though it is not technically private."
+What is 'Overloading' a method?,Creating multiple methods with the same name but different signatures in the same class.
+"Identify the relationship: A 'Folder' contains 'Files'. If the Folder is deleted, the Files are also deleted.",Composition
+Which design pattern would you use to centralize the creation logic of different types of 'Enemy' objects in a game?,Factory
+What is the significance of the 'Public' access modifier in a collaborative software project?,It defines the 'API' or set of methods that other team members are allowed to use to interact with your class.
+Can a class be both 'Abstract' and 'Static'?,"No, because abstract classes are designed to be inherited, while static members belong to the class itself and cannot be overridden."
+Explain the 'Is-A' test for inheritance.,"If you can say '[Subclass] is a [Superclass]' (e.g., 'A Cat is an Animal'), inheritance is likely appropriate."
+What is 'Dynamic Polymorphic Behaviour'?,"The runtime selection of a method implementation based on the actual type of the object, not the reference type."
+Describe the link between OOP design patterns and machine learning architecture.,"Design patterns help manage the complexity of training pipelines, data preprocessing, and model versioning."
